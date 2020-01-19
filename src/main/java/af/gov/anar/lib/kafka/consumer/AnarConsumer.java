@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class AnarConsumer<T> {
 
 
-    @KafkaListener(topics = this.to )
+    @KafkaListener(topics =  )
     public T receive(T obj) {
         return obj;
     }

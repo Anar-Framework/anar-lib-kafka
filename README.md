@@ -11,6 +11,17 @@
 
 ```
 
+add following in your `application.properties`
+
+```properties
+# Kafka Connect Host
+kafka.connect.host=http://localhost:8083
+#Kafka Rest Host
+kafka.rest.host=http://localhost:9092
+#Schema URL
+kafka.schema.url=http://localhost:8081
+```
+
 
 #### Documentation
 

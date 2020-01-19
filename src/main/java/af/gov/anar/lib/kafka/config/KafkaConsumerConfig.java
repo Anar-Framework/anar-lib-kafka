@@ -60,7 +60,7 @@ public class KafkaConsumerConfig {
     @Bean
     public ConsumerFactory<String, Object> consumerFactory() {
 
-        String[] trustedPackages = new String[]{"af.asr.data.model", "af.asr.data.dto"};
+        String[] trustedPackages = new String[]{"af.*"};
 
         final JsonDeserializer<Object> jsonDeserializer = new JsonDeserializer<>();
         jsonDeserializer.addTrustedPackages(trustedPackages);

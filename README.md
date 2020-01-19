@@ -20,6 +20,8 @@ kafka.connect.host=http://localhost:8083
 kafka.rest.host=http://localhost:9092
 #Schema URL
 kafka.schema.url=http://localhost:8081
+
+tpd.topic-name=default-topic
 ```
 
 

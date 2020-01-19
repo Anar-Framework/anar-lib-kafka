@@ -13,5 +13,5 @@ import java.util.Properties;
 
 @Service
 public interface AnarConsumer<T> {
-    T consume (T obj);
+    void consume (T obj);
 }

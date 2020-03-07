@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
 
 @Service
-public class AnarProducer<T> {
+public class AnarKafkaProducer<T> {
 
     @Autowired
     private KafkaTemplate<String, T> template;

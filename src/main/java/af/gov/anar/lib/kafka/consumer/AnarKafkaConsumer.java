@@ -12,6 +12,6 @@ import java.util.Collections;
 import java.util.Properties;
 
 @Service
-public interface AnarConsumer<T> {
+public interface AnarKafkaConsumer<T> {
     void consume (T obj);
 }
